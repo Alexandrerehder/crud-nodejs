@@ -1,34 +1,3 @@
-// const commander = require('commander'); // include commander in git clone of commander repo
-// const program = new commander.Command();
-// const Database = require('./database')
-
-// async function main(){
-// program
-//     .version('v1')
-//     .option('-c, --cadastrar', 'cadastrar')
-//     .option('-n, --nome', 'Nome: ')
-//     .option('-p, --poder', 'Poder: ');
-//     program.parse(process.argv)
-// try {
-//     const options = program.opts();
-//     if (options.cadastrar) {
-//         console.log(program);
-//     }
-//     if (options.nome) {
-//         console.log(program);
-//     }
-
-//     // if (options.debug) console.log(options);
-//     // console.log('pizza details:');
-//     // if (options.small) console.log('- small pizza size');
-//     // if (options.pizzaType) console.log(`- ${options.pizzaType}`);
-
-// } catch (error) {
-//     console.error('Erro', error)   
-// }
-
-// }
-// main()
 const { Command } = require("commander");
 const Commander = new Command();
 const options = Commander.opts();
