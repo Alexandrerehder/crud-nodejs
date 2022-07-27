@@ -8,7 +8,7 @@ CRUD utilizando Commander em Node.JS com base no conteúdo asimilado durante o t
 
 ## Modo de uso
 ``` shell
-git clone git@github.com:Alexandrerehder/crud-nodejs.git && cd crud-nodejs
+git clone git@github.com:alexandrerehder/crud-nodejs.git && cd crud-nodejs
 
 npm init && npm install commander mocha 
 
